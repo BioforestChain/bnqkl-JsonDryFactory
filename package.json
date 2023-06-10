@@ -1,0 +1,28 @@
+{
+  "name": "@bfchain/json-dry-factory",
+  "version": "3.2.1",
+  "description": "registered isolated serialization/deserialization handlers for custom classes.",
+  "main": "./build/cjs/index.js",
+  "types": "build/cjs/index.d.ts",
+  "scripts": {
+    "clear": "bdk-clear -p build",
+    "dev:all": "bdk-tsc --build tsconfig.all.json -w",
+    "dev": "bdk-tsc --build -w",
+    "build:cjs": "bdk-tsc --build",
+    "build:cjs-es5": "bdk-tsc --build tsconfig.cjs-es5.json",
+    "build": "bdk-tsc --build tsconfig.all.json",
+    "rebuild": "npm run clear & npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://bnqkl.dev:22/CoreProductCollection/BFChain-Util/_git/BFChain-JsonDryFactory"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@bfchain/json-dry-factory": "link:./",
+    "@types/node": "^12.12.22",
+    "console-pro": "^2.0.3"
+  }
+}

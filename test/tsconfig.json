@@ -1,0 +1,21 @@
+{
+    "extends": "../base.tsconfig.cjs",
+    "compilerOptions": {
+        "target": "esnext",
+        "rootDir": "./",
+        "outDir": "../build/test"
+    },
+    "files": [
+        "bool_recoder.test.ts",
+        "1.test.ts",
+        "2.test.ts",
+        "3.test.ts",
+        "4.test.ts",
+        "5.test.ts",
+    ],
+    "references": [
+        {
+            "path": "../src"
+        }
+    ]
+}

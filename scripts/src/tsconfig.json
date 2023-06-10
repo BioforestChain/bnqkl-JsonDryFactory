@@ -1,0 +1,13 @@
+{
+    "extends": "../base.tsconfig.cjs",
+    "compilerOptions": {
+        "rootDir": "./",
+        "outDir": "../build/cjs"
+    },
+    "files": [
+        "index.ts",
+        "BoolRecoder.ts",
+        "JsonDryFactory.ts",
+        "@types.ts"
+    ]
+}
